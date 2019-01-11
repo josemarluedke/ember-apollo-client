@@ -86,6 +86,14 @@
     "qunit-dom": "^0.8.4",
     "typescript": "^3.2.2"
   },
+  "peerDependencies": {
+    "graphql": "*",
+    "graphql-tools": "*",
+    "graphql-tag": "*"
+  },
+  "resolutions": {
+    "graphql": "^14.0.2"
+  },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
   },
